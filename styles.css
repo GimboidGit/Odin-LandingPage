@@ -1,8 +1,76 @@
-/* * {
-    border: 2px solid red;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
 body {
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.block2-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+button,
+.block2-item img {
+    border-radius: 15px;
+}
+
+.block2-item img {
+    width: 50px;
+    height: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    padding: 20px;
+}
+
+
+.logo {
+    font-size: 24px;
+}
+
+.main-text-colour {
+    color: #F9FAF8;
+}
+
+.secondary-text-colour {
+    color: #E5E7EB;
+}
+
+.header,
+.block1,
+.footer {
+    background-color: #1F2937;
+}
+
+.block3 {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+button,
+.block4-container {
+    background-color: #3882F6;
 }
