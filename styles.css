@@ -84,6 +84,8 @@ button,
 
 /* Flex Positioning */
 
+/* #region Header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -101,10 +103,15 @@ button,
     gap: 16px;
 }
 
+/* #endregion Header */
+
+
+/* #region Block1 */
 
 .block1 {
     display: flex;
     justify-content: center;
+    padding-top: 64px;
 }
 
 .block1-left {
@@ -130,3 +137,33 @@ button,
     height: 80%;
     width: 80%;
 }
+
+/* #endregion Block1 */
+
+
+/* #region Block2 */
+
+.block2 {
+    padding-bottom: 96px;
+}
+
+.block2-title {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.block2-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 52px;
+}
+
+.block2-item {
+    width: 150px;
+    text-align: center;
+}
+
+/* #endregion Block2 */
+
