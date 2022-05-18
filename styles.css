@@ -7,11 +7,16 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
 }
 
 .block2-title {
@@ -43,6 +48,7 @@ button,
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .main-text-colour {
@@ -73,4 +79,54 @@ button,
 button,
 .block4-container {
     background-color: #3882F6;
+}
+
+
+/* Flex Positioning */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.header-left-links,
+.header-right-links {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+}
+
+.header-right-links {
+    gap: 16px;
+}
+
+
+.block1 {
+    display: flex;
+    justify-content: center;
+}
+
+.block1-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.block1-left-sizing { 
+    height: auto;
+    width: 50%;
+}
+
+.block1-right {
+    display: flex;
+    flex: 1 1 0;
+    margin-right: 10%;
+}
+
+.block1-right * {
+    height: 80%;
+    width: 80%;
 }
