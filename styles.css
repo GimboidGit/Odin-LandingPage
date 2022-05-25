@@ -231,3 +231,14 @@ button,
 }
 
 /* #endregion Block 4 */
+
+
+/* #region Footer */
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+/* #endregion Footer */
